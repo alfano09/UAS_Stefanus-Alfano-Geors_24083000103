@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package matematika.newpack;
+
+/**
+ *
+ * @author ASUS
+ */
+class MatematikaCanggihBeraksi {
+    public static void main(String[] args) {
+        MatematikaCanggih matCanggih = new MatematikaCanggih();
+
+        // Menggunakan method dari kelas induk
+        int a = 20, b = 10;
+
+        // Menampilkan hasil pertambahan
+        System.out.println("Pertambahan: " + a + " + " + b + " = " + matCanggih.pertambahan(a, b));
+
+        // Menampilkan hasil perkalian
+        System.out.println("Perkalian: " + a + " * " + b + " = " + matCanggih.perkalian(a, b));
+
+        // Menampilkan hasil modulus
+        System.out.println("Modulus: " + a + " % " + b + " = " + matCanggih.modulus(a, b));
+    }
+}
